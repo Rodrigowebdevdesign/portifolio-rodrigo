@@ -3,6 +3,7 @@
     width: 80vw;
     height: 300px;
     display: flex;
+    border-radius: 40px 40px 0px 0px;
 }
 
 /* menu */
@@ -27,7 +28,7 @@ nav a::after{
     content: " ";
     width: 0%;
     height: 5px;
-    background-color: #00bfea;
+    background-color: #00bfead3;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -41,8 +42,11 @@ nav a:hover::after{
 /* ---------- sobre mim -------------------------- */
 
 .borda{
-    border: 2px solid whitesmoke;
+    border: 2px solid rgba(113, 113, 113, 0.588);
     border-top: none;
+    border-bottom: none;
     width: 80vw;
     height: 100vh;
+    background-color: #242441;
+
 }
