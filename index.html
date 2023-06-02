@@ -1,43 +1,306 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Portifólio / Rodrigo Oliveira</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- TITLE DA PÁGINA-->
+  <link rel="shotcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  <title>Portifólio / Rodrigo Oliveira</title>
+
+  <!--Bootstrap CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <!--Bootstrap Icon CDN-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!--Animação da Página -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="./CSS/style.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href=""><img src="./assets/imgs/logo.png" alt="imagem-logo" class="logo"></a>
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+
+
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a href="" class="logo"><img src="./img/logo2.png" alt="logo"></a>
+      <div class="menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <ion-icon name="menu-outline">
+        </ion-icon>
+      </div>
+      <div class="navbar-collapse collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+         
+        </ul>
+        <ul class="navbar-nav flex-row">
+          <li class="nav-item">
+            <a class="social-icon" href="https://www.linkedin.com/in/rodrigo-oliveira-28b62825a/" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="social-icon" href="https://github.com/Rodrigowebdevdesign" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="about" id="sobre">
+    <div class="container">
+      <div class="section-title" data-aos="fade-down">
+        <h3 class="text-center fw-bold main-title">Sobre Mim</h3>
+      </div>
+      <div class="row">
+        <div class="about-content" data-aos="fade-down">
+          <div class="column left">
+            <img src="./img/img-perfil.jpg" alt=""></img>
           </div>
-          <ul class="nav-list">
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-      </header>
-
-          <div class="container">
-            <img src="./assets/imgs/banner.gif" alt="imagem-logo" class="banner ">
+          <div class="column right">
+            <div class="text">Olá, me chamo <span class="typing-2">Rodrigo Oliveira</span>, tenho 28 anos e vou falar um pouco sobre mim:</div>
+        <p>Há dois anos comecei meus estudos sobre tecnologia, tudo pra mim era novo nesse campo e aos poucos fui tomando gosto pela coisa e hoje posso afirmar que desenvolver é uma paixão para mim. Dia após dia procuro me aprimorar e aprender coisas novas nesse campo, pois sempre fui curioso e sempre quis saber o porquê das coisas, e quando comecei minha jornada logo vi que isso era essencial para essa área! Hoje em dia busco uma oportunidade para poder viver disso e poder me dedicar integralmente a esse vasto campo que é o mundo da programação! <span class="tipyng">E então? vamos trabalhar juntos?!</span><h4>Deixo logo abaixo o link para download do meu CV, fique a vontade para baixar e conferir um pouco do que já consigo desenvolver!</h4></p>
+        <a href="https://www.mediafire.com/file/416zw0i7b2i7lti/cvRodrigoOliveira.pdf/file">
+            <button class="cssbuttons-io">
+              <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path fill="none" d="M0 0h24v24H0z"></path>
+                  <path fill="currentColor"
+                    d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z">
+                  </path>
+                </svg> download CV</span>
+            </button>
+          </a>
           </div>
-    
- 
-  
-    
+        </div>
+      
+  </section>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-<script src="./assets/js/mobile-navbar.js"></script>
+  <section id="services" class="full-height">
+    <div class="container">
+      <div class="section-title" data-aos="fade-down">
+        <h3 class="text-center fw-bold main-title">Skills</h3>
+      </div>
+      <div class="grid three-col-grid">
+
+        <div data-aos="fade-up" data-aos-delay="100">
+          <div class="card card-padding">
+            <div class="icon"><ion-icon name="logo-html5"></ion-icon></div>
+            <h4 class="heading-3">HTML5</h4>
+            
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="200">
+          <div class="card card-padding">
+            <div class="icon"><ion-icon name="logo-css3"></ion-icon></div>
+            <h4 class="heading-3">CSS</h4>
+            
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="300">
+          <div class="card card-padding">
+            <div class="icon"><ion-icon name="logo-javascript"></ion-icon></div>
+            <h4 class="heading-3">Java Script</h4>
+           
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="400">
+          <div class="card card-padding">
+            <div class="icon"><ion-icon name="logo-vue"></ion-icon></div>
+            <h4 class="heading-3">VUEjs</h4>
+            
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="500">
+          <div class="card card-padding">
+            <div class="icon"><ion-icon name="logo-laravel"></ion-icon></div>
+            <h4 class="heading-3">Laravel</h4>
+            
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="600">
+          <div class="card card-padding">
+            <div class="icon"><ion-icon name="logo-wordpress"></ion-icon></div>
+            <h4 class="heading-3">Wordpress</h4>
+            
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="700">
+          <div class="card card-padding">
+            <div class="icon">
+              <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            </div>  
+            <h4 class="heading-3">E muito mais ...</h4>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="projects">
+    <div class="container">
+      <div class="section-title">
+        <h3 class="text-center fw-bold main-title">Projetos</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="project-item">
+            <img src="./img/projeto1.png" alt="Projeto 1">
+            <div class="project-overlay">
+              <h3>Dragon Ball Memory game</h3>
+              <p>Projeto  desenvolvido em HTML,CSS e JS</p>
+              <a href="https://rodrigowebdevdesign.github.io/dragon-ball-memory-game/" class="btn btn-primary" target="_blank">Deploy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="project-item">
+            <img src="./img/projeto2.png" alt="Projeto 2">
+            <div class="project-overlay">
+              <h3>Conversor de voz em texto</h3>
+              <p>Projeto desenvolvido em HTML,CSS e JS</p>
+              <a href="https://rodrigowebdevdesign.github.io/Reconhecimento-de-voz-com-javascript/" class="btn btn-primary" target="_blank">Deploy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="project-item">
+            <img src="./img/projeto3.png" alt="Projeto 3">
+            <div class="project-overlay">
+              <h3>Pagina de login com dark mode</h3>
+              <p>Projeto desenvolvido em HTML e CSS </p>
+              <a href="https://rodrigowebdevdesign.github.io/formulario-com-dark-mode/" class="btn btn-primary" target="_blank">Deploy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="project-item">
+            <img src="./img/projeto4.png" alt="Projeto 4">
+            <div class="project-overlay">
+              <h3>Site cafetería </h3>
+              <p>Projeto desenvolvido em HTML , CSS e JS </p>
+              <a href="https://rodrigowebdevdesign.github.io/site-cafeteria-totalmente-responsivo/" class="btn btn-primary" target="_blank">Deploy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="project-item">
+            <img src="./img/projeto5.gif" alt="Projeto 5">
+            <div class="project-overlay">
+              <h3>Discografia tião carreiro e padinho </h3>
+              <p>Projeto desenvolvido em laravel </p>
+              <a href="https://github.com/Rodrigowebdevdesign/tiao_carreiro_e_pardinho_discografia" class="btn btn-primary" target="_blank">Repositório</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="project-item">
+            <img src="./img/breve.jpg" alt="Projeto em andamento">
+            <div class="project-overlay">
+              <h3>Projeto em andamento </h3>
+              <p>Em breve disponível pra vcs!! </p>
+              <a href="#" class="btn btn-primary" target="_blank">Em breve</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="mt-5 py-5">
+    <div class="container">
+      <div class="footer-logo text-center">
+        <img src="./img/logo.png" class="img-fluid"></img>
+      </div>
+      <div class="footer-social d-flex justify-content-center gap-3 text-center mt-3">
+        <a href="https://github.com/Rodrigowebdevdesign" class="text-white" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/rodrigo-oliveira-28b62825a/" class="text-white" target="_blank"><i class="bi bi-linkedin"></i></a>
+        
+      </div>
+      <div class="footer-copyright text-center mt-3 mt-lg-2">
+        <p>&copy Desenvolvido por: Rodrigo Oliveira</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <div id="theme-toggle">
+    <ion-icon name="sunny-outline"></ion-icon>
+  </div>
+
+  <div class="scroll-up-btn">
+    <ion-icon name="arrow-up-circle-outline"></ion-icon>
+  </div>
+
+  <!--Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+
+  <!--JavaScript da página-->
+  <script src="./JS/Navbar.js"></script>
+  <script src="./JS/Tema.js"></script>
+  <script src="./JS/Cards.js"></script>
+
+  <!--JS da animação da Página-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- JS DA PÁGINA -->
+  <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./JS/Carousel.js"></script>
+  <script src="./JS/Typed.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
 </body>
+
 </html>
